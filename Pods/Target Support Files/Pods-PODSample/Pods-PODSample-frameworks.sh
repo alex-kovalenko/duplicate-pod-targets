@@ -150,12 +150,14 @@ strip_invalid_archs() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FeatureA/FeatureA.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FeatureB/FeatureB.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FoundationFramework/FoundationFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FoundationFramework.default-SubD/FoundationFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FoundationFramework-SubA-SubB-SubC-SubD/FoundationFramework.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/FeatureA/FeatureA.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/FeatureB/FeatureB.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/FoundationFramework/FoundationFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FoundationFramework.default-SubD/FoundationFramework.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FoundationFramework-SubA-SubB-SubC-SubD/FoundationFramework.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

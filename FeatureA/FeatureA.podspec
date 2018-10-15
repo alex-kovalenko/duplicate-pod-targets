@@ -13,12 +13,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '12.0'
 
   # Framework A Case 1
-  # s.dependency 'FoundationFramework'
+  s.dependency 'FoundationFramework'
 
   # Framework A Case 2
-  s.dependency 'FoundationFramework/SubA'
-  s.dependency 'FoundationFramework/SubB'
-  s.dependency 'FoundationFramework/SubC'
+  # s.dependency 'FoundationFramework/SubA'
+  # s.dependency 'FoundationFramework/SubB'
+  # s.dependency 'FoundationFramework/SubC'
 
   s.source_files = 'Source/**/*.swift'
 end

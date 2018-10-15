@@ -1,0 +1,6 @@
+framework module FoundationFramework {
+  umbrella header "FoundationFramework.default-SubD-umbrella.h"
+
+  export *
+  module * { export * }
+}

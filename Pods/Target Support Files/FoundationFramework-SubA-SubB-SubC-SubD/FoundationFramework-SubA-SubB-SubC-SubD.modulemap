@@ -1,5 +1,5 @@
 framework module FoundationFramework {
-  umbrella header "FoundationFramework-umbrella.h"
+  umbrella header "FoundationFramework-SubA-SubB-SubC-SubD-umbrella.h"
 
   export *
   module * { export * }

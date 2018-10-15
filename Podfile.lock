@@ -1,10 +1,12 @@
 PODS:
   - FeatureA (1.0.0):
-    - FoundationFramework/SubA
-    - FoundationFramework/SubB
-    - FoundationFramework/SubC
+    - FoundationFramework
   - FeatureB (1.0.0):
     - FoundationFramework/SubD
+  - FoundationFramework (1.0.0):
+    - FoundationFramework/SubA (= 1.0.0)
+    - FoundationFramework/SubB (= 1.0.0)
+    - FoundationFramework/SubC (= 1.0.0)
   - FoundationFramework/SubA (1.0.0)
   - FoundationFramework/SubB (1.0.0)
   - FoundationFramework/SubC (1.0.0)
@@ -27,10 +29,10 @@ EXTERNAL SOURCES:
     :path: FoundationFramework
 
 SPEC CHECKSUMS:
-  FeatureA: 5729268b748b551d4a15985a42470fd6595458ae
+  FeatureA: cb895e79a3d74cc4b10f43cdde9d165abb3739dc
   FeatureB: be021114e04de056502668e6f13d5711330994e9
   FoundationFramework: 9298302a93a564d4fa36169d782af08f9c049a6d
 
-PODFILE CHECKSUM: 9da7d37fe22efa7f4b5271c891ceff15de6d0b8e
+PODFILE CHECKSUM: 178b5e4dbbf1f02ded76f1b79804ea78b66d9ed4
 
 COCOAPODS: 1.6.0.beta.1

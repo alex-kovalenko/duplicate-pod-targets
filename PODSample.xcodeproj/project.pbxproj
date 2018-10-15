@@ -266,7 +266,8 @@
 				"${PODS_ROOT}/Target Support Files/Pods-PODSample/Pods-PODSample-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/FeatureA/FeatureA.framework",
 				"${BUILT_PRODUCTS_DIR}/FeatureB/FeatureB.framework",
-				"${BUILT_PRODUCTS_DIR}/FoundationFramework/FoundationFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FoundationFramework.default-SubD/FoundationFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/FoundationFramework-SubA-SubB-SubC-SubD/FoundationFramework.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
