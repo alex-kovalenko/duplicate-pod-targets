@@ -1,0 +1,6 @@
+framework module Pods_PODNotification {
+  umbrella header "Pods-PODNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

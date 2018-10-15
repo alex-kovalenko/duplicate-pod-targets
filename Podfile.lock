@@ -1,0 +1,36 @@
+PODS:
+  - FeatureA (1.0.0):
+    - FoundationFramework/SubA
+    - FoundationFramework/SubB
+    - FoundationFramework/SubC
+  - FeatureB (1.0.0):
+    - FoundationFramework/SubD
+  - FoundationFramework/SubA (1.0.0)
+  - FoundationFramework/SubB (1.0.0)
+  - FoundationFramework/SubC (1.0.0)
+  - FoundationFramework/SubD (1.0.0)
+
+DEPENDENCIES:
+  - FeatureA (from `FeatureA`)
+  - FeatureB (from `FeatureB`)
+  - FoundationFramework/SubA (from `FoundationFramework`)
+  - FoundationFramework/SubB (from `FoundationFramework`)
+  - FoundationFramework/SubC (from `FoundationFramework`)
+  - FoundationFramework/SubD (from `FoundationFramework`)
+
+EXTERNAL SOURCES:
+  FeatureA:
+    :path: FeatureA
+  FeatureB:
+    :path: FeatureB
+  FoundationFramework:
+    :path: FoundationFramework
+
+SPEC CHECKSUMS:
+  FeatureA: 5729268b748b551d4a15985a42470fd6595458ae
+  FeatureB: be021114e04de056502668e6f13d5711330994e9
+  FoundationFramework: 9298302a93a564d4fa36169d782af08f9c049a6d
+
+PODFILE CHECKSUM: 9da7d37fe22efa7f4b5271c891ceff15de6d0b8e
+
+COCOAPODS: 1.6.0.beta.1

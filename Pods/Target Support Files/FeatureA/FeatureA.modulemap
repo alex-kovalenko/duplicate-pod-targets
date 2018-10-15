@@ -1,0 +1,6 @@
+framework module FeatureA {
+  umbrella header "FeatureA-umbrella.h"
+
+  export *
+  module * { export * }
+}

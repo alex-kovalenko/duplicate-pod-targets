@@ -1,0 +1,26 @@
+{
+  "name": "FeatureB",
+  "version": "1.0.0",
+  "license": {
+    "type": "COMMERCIAL",
+    "text": "Created and licensed by Nike. Copyright 2018 Nike, Inc. All rights reserved."
+  },
+  "homepage": "https://www.nike.com",
+  "summary": "Sample framework to demonstrate issues with subspecs.",
+  "authors": {
+    "Aleksandr Kovalenko": "aleksandr.kovalenko@nike.com"
+  },
+  "source": {
+    "git": "git://some",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "12.0"
+  },
+  "source_files": "Source/**/*.swift",
+  "dependencies": {
+    "FoundationFramework/SubD": [
+
+    ]
+  }
+}
